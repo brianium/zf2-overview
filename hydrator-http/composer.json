@@ -1,0 +1,10 @@
+{
+    "require": {
+        "silex/silex": "~1.1",
+        "zendframework/zend-stdlib": "~2.2",
+        "zendframework/zend-http": "~2.2"
+    },
+    "autoload": {
+    	"classmap":["models/"]
+    }
+}
