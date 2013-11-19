@@ -110,22 +110,4 @@ return array(
             ),
         ),
     ),
-    /**
-     * USS Specific Configuration
-     */
-    'noc' => array(
-        'to_address' => 'scaturrob@gmail.com',
-        'from_address' => 'cloud@ussignalcom.net'
-    ),
-    'white-labelling' => array(
-        'logo-dir' => __DIR__ . '/../../../public/logos'
-    ),
-    'hardware' => array(
-        'hard_disks' => array(
-            'minimum_mb' => '256'
-        ),
-        'memory' => array(
-            'max_gb' => '64'
-        )
-    )
 );
