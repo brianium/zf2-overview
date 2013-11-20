@@ -26,7 +26,7 @@ class Module
     {
         $sm = $e->getApplication()->getServiceManager();
         $params = $e->getRouteMatch()->getParams();
-        if ($params['controller'] == 'zfcuser' && preg_match('/login|signout/', $params['action'])) return;
+        if ($params['controller'] == 'zfcuser' && preg_match('/log(?:in|out)|register/', $params['action'])) return;
         $auth = $sm->get('zfcuser_auth_service');
         if (! $auth->hasIdentity()) {
             $response = $e->getResponse();
