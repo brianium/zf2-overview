@@ -49,7 +49,7 @@ php -S localhost:8080 -t public/
 ```
 
 ###Note on Zend\Http\Client###
-The Zend\Http\Client at the time this app was created, does not work with Zend's ZendService\Twitter\Twitter client. After doing a composer install you will need to update line 1358 of Zend\Http\Client.php to the following"
+The Zend\Http\Client at the time this app was created, does not work with Zend's ZendService\Twitter\Twitter client. After doing a composer install you will need to update line 1358 of Zend\Http\Client.php to the following:
 
 ```php
 self::getAdapter()->connect($uri->getHost(), $uri->getPort(), $secure);
