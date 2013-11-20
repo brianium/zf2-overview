@@ -60,3 +60,5 @@ This is a toy application that uses ZendService\Twitter\Twitter to search tweets
 
 You can login/register at /user
 The tweet searcher is visible at /tweets after logging in.
+
+In order to leverage the twitter service, you will need to register an application at developer.twitter.com. Replace the access_token and oauth_options in application/module/Application/config/module.config.php with they info twitter gives you for your app.
