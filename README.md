@@ -8,7 +8,7 @@ Slides found [here](http://slid.es/brianscaturro/zend-framework-2)
 This repo contains 2 applications:
 
 ##hydrator-http##
-This is a simple application built using the [Silex](http://silex.sensiolabs.org/) microframework, and a couple of ZF2 components - namely Zend\Http, and Zend\Stdlib for Hydrator support.
+This is a simple application built using the [Silex](http://silex.sensiolabs.org/) microframework, and a couple of ZF2 components - namely [Zend\Http](http://framework.zend.com/manual/2.2/en/modules/zend.http.html), and Zend\Stdlib for [Hydrator](http://framework.zend.com/manual/2.2/en/modules/zend.stdlib.hydrator.html) support.
 
 This app fetches collaborators on a github repository by viewing /{owner}/{repo}, i.e /brianium/paratest.
 
